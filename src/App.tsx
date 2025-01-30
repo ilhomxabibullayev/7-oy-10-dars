@@ -139,6 +139,14 @@ function App() {
 
   console.log([sum]);
 
+  // 11
+
+  let arrNumber9: number[] = [1, 5, 3, 9, 2];
+  let maxElement: number = Math.max(...arrNumber9);
+
+  console.log([maxElement]);
+
+
   return (
     <>
 
